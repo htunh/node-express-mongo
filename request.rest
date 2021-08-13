@@ -1,0 +1,23 @@
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "userName": "bwarbwarbwar",
+    "password": "world",
+    "email": "bwarbwarbwar@gmail.com"
+}
+
+###
+
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "userName": "hello",
+    "password": "world"
+}
+
+###
+
+GET http://localhost:3000/test
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxvIiwiaWF0IjoxNTk3MjAxMjQyLCJleHAiOjE1OTcyODc2NDJ9.I80Ca2ePTKLBwArgFQND_Q--ob2DQYnIymKFMBRAryI

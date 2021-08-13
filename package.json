@@ -1,0 +1,27 @@
+{
+  "name": "express-jwt-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "devDependencies": {
+    "loadtest": "*"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20",
+    "mongoose-hidden": "^1.9.0",
+    "mongoose-morgan": "^1.0.15",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "throng": "^4.0.0"
+  }
+}
